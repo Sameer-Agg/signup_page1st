@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:'Belanosima', sans-serif ;
+
+}
+
+.boxout{
+   width: 100vw;
+   height: 100vh;
+   background:linear-gradient(to top left ,#ff5f6d , #ffc371);
+
+}
+
+.boxin{
+    z-index: 2;
+    width: 400px;
+
+    margin: 0 auto;
+    position: relative;
+    top: 40%;
+    transform: translateY(-50%);
+    padding:50px 100px;
+    border-radius: 20px;
+    /* background-color: #ffffffcc; */
+    background: linear-gradient(TO top left,#ffffff33,#ffffff);
+    box-shadow: 2px 2px 5px #911a24;
+
+    /* backdrop-filter: blur(8px); */
+}
+.signuphead h1{
+    font-size: 3rem;
+    color: #212121;
+
+}
+
+.signuphead p{
+    font-size: 0.9rem;
+    color: #555;
+
+}
+
+.singupmain{
+    margin: 20px 0;
+
+}
+
+.singupmain p{
+    margin: 10px 0;
+}
+
+.singupmain p label{
+    display: block;
+    font-weight: bold;
+
+}
+
+.singupmain p input{
+    width: 100%;
+    padding: 7px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 0.9rem;
+}
+
+.singupmain p input[type="submit"]{
+    background-color: #ff2744;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+.singupmain p input[type="submit"]:hover{
+    background-color: #810112;
+}
+
+.singupfoot p{
+    color: #555;
+    text-align: center;
+
+}
+.singupfoot p a{
+    color: #ff2744;
+}
+
+.circle{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    background: linear-gradient(to top right, #ffffff7e, #ffffff);
+    position: absolute;
+}
+
+.c1{
+   top: 60px;
+   left:40px;
+}
+.c2{
+    bottom: 120px;
+    right: 50px;
+
+}
